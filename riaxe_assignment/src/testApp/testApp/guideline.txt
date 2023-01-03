@@ -1,0 +1,17 @@
+You have to create a app with following features:
+- There are two pages/components of the App.
+- Component-1 is the product list containing product name, description, price, product image and quantity selector.
+- When a user increases the quantity using the plus(+) button or decreases using the Minus(-) for any product the total price gets updated at the bottom of the page.
+ - Minimum quantity should not be below zero (0).
+
+ - Component-2 is the summary of the products for which the quantity is more than zero.
+ - When "View" is clicked in the component-1, component-2 displays and component-1 gets hidden.
+ - When the "Back" button is clicked in the component-2, component-1 displays and component-2 gets hidden. So at any time only one page/component will be there on the screen.
+ 
+ - When the Cross(X) button is clicked in component-2 for a product, that product gets removed from the list. And when going back to component-1 the quantity will be zero(0) for that product. Total price gets updated accordingly.
+ - Do not waste time designing or styling the test app, it is already provided in 'template.html'. The Functionality(coding) part will be checked most.
+
+Note:
+
+1. Vegetable images in the 'images' folder are for use as assets in the app.
+2. 'template.html' file contains design HTML template and CSS for the app, You can use them in your test-app.
